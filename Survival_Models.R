@@ -1,10 +1,3 @@
-#
-#     R-code to generate data for Assignment 2.  This code MUST be
-#     placed at the start of your own R-script.  You must edit
-#     the argument to the set.seed( ) function to fit your own
-#     HW student ID number
-#
-#
 RNGkind(sample.kind = "Rejection")
 set.seed(4912)  #### Replace with the last 4 digits of your HW student ID
 #
@@ -32,8 +25,6 @@ Q.x <- DTH/E.init
 OBS <- Logit(Q.x)
 #
 #
-####################################################
-# Please insert your R code after this line
 ####################################################
 setwd("//Users//arinai.//Desktop//uni//year 3//survival_data")
 
